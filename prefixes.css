@@ -1,0 +1,17 @@
+/* make box sizing border box work well */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* reset browser margins and paddings, prevent white space from appearing on the right on skinny screens */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    overflow-x:hidden;
+}
